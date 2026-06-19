@@ -1,11 +1,11 @@
 # This config is imported in a bash script via source.
 
 # Path to thunderbird-l10n clone
-l10n_path="${root_path}/thunderbird-l10n/"
+l10n_path="~/src/thunderbird/thunderbird-l10n/"
 
 # Path to thunderbird-l10n-source clone, with the `update` branch checked-out
 # https://github.com/thunderbird/thunderbird-l10n-source
-quarantine_path="/path/to/quarantine-repo/"
+quarantine_path="~/src/thunderbird/thunderbird-l10n-source/"
 
 # Branch name used when creating a new batch in wet-run
 branch_name="update-migration"
@@ -13,4 +13,4 @@ branch_name="update-migration"
 # Path to mercurial clone of mozilla-unified, only used for the cleanup
 # migrations script. Leave empty if not needed.
 # https://hg.mozilla.org/mozilla-unified/
-mozilla_unified_path="/path/to/mozilla-unified-repo/"
+#mozilla_unified_path="/path/to/mozilla-unified-repo/"
